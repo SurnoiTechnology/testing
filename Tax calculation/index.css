@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria;
+    color: black;
+   
+    
+}
+.Tax-Calculator-page-container{
+    padding: 40px;
+    
+}
+.Tax-Calculator-container div{
+    padding: 10px;
+}
+.Tax-Calculator-container{
+  
+    box-shadow: 0 3px 5px
+   
+    
+}
+.Tax-Calculator-header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #f9f9f9;
+    padding: 20px;
+
+}
+.end{
+    text-align: end;
+}
+.total-income{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5px;
+
+}
+.total-income p {
+    margin-right: 15px;
+
+}
+.exemption{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #f9f9f9;
+    padding: 5px;
+}
+
+
+.exemption p{
+    margin-right: 15px;
+}
+.ex-drop-cont .ex-droplist{
+    display: none;
+}
+.ex-drop-cont ul{
+    
+}
+.ex-drop-cont:hover  .ex-droplist {
+    display: block;
+   
+}
+.up{
+    display: none;
+}
+.ex-drop-cont:hover  .down {
+    display: none;
+}
+.ex-drop-cont:hover  .up {
+    display: block;
+}
+.ex-droplist div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 3px;
+}
+
+.taxable{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5px;
+    background-color: #f9f9f9;
+}
+.taxable p{
+    margin-right: 15px;
+}
+.taxdue{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5px;
+}
+.taxdue p {
+    margin-right: 15px;
+}
+.taxdue-droplist{
+    display: none;
+    padding: 20px;
+     
+}
+.taxdue-droplist div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5px;
+}
